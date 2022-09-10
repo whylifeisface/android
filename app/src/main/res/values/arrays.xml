@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="is">
+        <item>跟随系统</item>
+        <item>始终竖屏</item>
+        <item>始终横屏</item>
+
+    </string-array>
+    <string-array name="search" >
+        <item>百度</item>
+        <item>Bing</item>
+        <item>搜狗</item>
+        <item>头条</item>
+        <item>夸克</item>
+    </string-array>
+    <string-array name="ua">
+        <item>默认</item>
+        <item>电脑</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+    </string-array>
+    <string-array name="clear">
+        <item>网站访问历史记录</item>
+        <item>搜索记录</item>
+        <item>Cookie和网站数据</item>
+
+        <item>缓存的图片和文件</item>
+        <item>保存的表单信息</item>
+        <item>保存的密码信息</item>
+    </string-array>
+</resources>

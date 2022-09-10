@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <searchable xmlns:android="http://schemas.android.com/apk/res/android"
+        android:label="@string/app_label"
+        android:hint="@string/search_hint" >
+    </searchable>
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="亲输入"
+        android:inputType="text" />
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/frag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView"/>
+<TextView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:text="l"/>
+</LinearLayout>

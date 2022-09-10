@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<PreferenceCategory
+    android:key="base"
+    android:title="基本">
+    <Preference android:key="read"
+        android:title="阅读器和书架"
+        android:summary="阅读器和书架的详细设置">
+        <intent
+            android:targetPackage="com.example.myapplication"
+            android:targetClass="com.example.myapplication.readFragment"
+            />
+    </Preference>
+    <Preference
+        android:key="search"
+        android:title="默认搜素引擎"/>
+    <Preference
+        android:key="ping"
+        android:title="屏幕旋转"
+        android:summary="始终竖屏"/>
+    <SwitchPreference
+        android:key="tian"
+        android:title="自动填充"
+        android:summary="自动保存并填充表单信息"/>
+    <SwitchPreference
+        android:key="password"
+        android:title="保存密码"
+        android:summary="自动保存并填充密码信息"/>
+    <Preference
+        android:key="UA"
+        android:title="浏览器标识(UA)"
+        android:summary="默认"/>
+    <SeekBarPreference
+        android:key="so"
+        android:title="网站文字缩放比"
+        android:summary="设置网站文字缩放比"/>
+</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="sett"
+        android:title="隐私设置">
+
+        <SwitchPreference
+            android:key=""
+            android:title="搜索和网址建议"
+            android:summary="在我输入时显示搜索和网址建议"/>
+        <SwitchPreference
+            android:key=""
+            android:title="禁止跟踪"
+            android:summary="禁止网站收集并使用你的浏览器数据"/>
+        <SwitchPreference
+            android:key=""
+            android:title="个性化推送"
+            android:summary="接受个性化推送消息"/>
+        <Preference
+            android:key="clear"
+            android:title="清除浏览器数据"
+            android:summary="清除浏览器数据"/>
+        <Preference
+            android:key=""
+            android:title="重置隐藏密码"
+            android:summary="重置首屏的隐藏密码"/>
+        <Preference
+            android:key=""
+            android:title="清理广告文件缓存"
+            android:summary="清理广告文件缓存,释放存储空间"/>
+        <Preference
+            android:key=""
+            android:title="隐私设置"/>
+    <PreferenceCategory
+            android:key="about"
+            android:title="关于我们">
+        <Preference
+            android:key=""
+            android:title="客服qq群,点击添加"
+            android:summary="465126143"/>
+        <Preference
+            android:key=""
+            android:title="意见反馈"/>
+        <Preference
+            android:key=""
+            android:title="用户协议"/>
+        <Preference
+            android:key=""
+            android:title="隐私政策"/>
+        <Preference
+            android:key=""
+            android:title="免责声明"/>
+        <Preference
+            android:key=""
+            android:title="版本信息:1.1.205"/>
+        <Preference
+            android:key=""
+            android:title="检查更新"
+            android:summary="点击检查最新版本"/>
+
+    </PreferenceCategory>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
